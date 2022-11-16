@@ -1,0 +1,23 @@
+for (int i= 0;i<=100;i++){
+            System.out.println(i);
+            if (i%2 !=1)
+            System.out.println("even");
+        }
+        for (int i= 100;i>=0;i--){
+            System.out.println(i);
+            if (i%2!=0)
+                continue;
+        }
+        for(int f=10;f>=1;f--){
+           if (f==4)
+               break;
+        }
+        String p="lojyn";
+        for(int c =0 ; c<p.length();c++){
+         System.out.println(p.charAt(c));}
+
+        String l= "lojyn";
+        for(int lo=l.length()-1
+            ; lo>=0; lo--) {
+            System.out.println(l.charAt(lo));
+        }
